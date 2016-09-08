@@ -1,7 +1,7 @@
 <template>
   <div>
-    <flag id=""></flag>
-    Id: {{ id }}
+    <flag :identifier.sync="identifier"></flag>
+    Id: {{ identifier }}
     Title: {{ title }}
   </div>
 </template>
@@ -13,7 +13,7 @@ import store from './store'
 export default {
   components: { Flag },
 
-  props: ['id'],
+  props: ['identifier'],
 
   data () {
     return {
