@@ -8,7 +8,7 @@
 import store from './store'
 
 export default {
-  props: ['id'],
+  props: ['identifier'],
 
   data () {
     return {
@@ -19,7 +19,7 @@ export default {
   },
 
   ready () {
-    var country = store.countries[this.id];
+    var country = store.countries[this.identifier];
     this.name = country.name;
     this.flag = country.flag;
   }
