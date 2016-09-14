@@ -1,7 +1,7 @@
 <template>
 	<div>
 		
-		<h2 class="ui header centered aligned">Filipe Forattini AQUI</h2>
+		<h2 class="ui header centered aligned">Filipe Forattini</h2>
 		
 		<div class="ui two column doubling stackable grid container">
 			<div class="column">
@@ -16,8 +16,8 @@
 			</div>
 		</div>
 		
-		<div v-for="xp in experiences">
-			<experience :identifier.sync="xp.id"></experience>
+		<div v-for="xp in experiences" class="ui ">
+			<!-- <experience :identifier.sync="xp.id"></experience> -->
 		</div>
 	
 	</div>
@@ -27,18 +27,14 @@
 	import Experience from './Experience.vue';
 	
 	export default {
+		components: { Experience },
+
 		vuex: {
 			getters: {
 				experiences: function (state) {
 					return state.experiences;
 				}
 			}
-		},
-		data() {
-			return {
-				test: 'SDSdas dasd asd asdas das das das das ',
-			};
-		},
-		components: { Experience },
+		}
 	}
 </script>
