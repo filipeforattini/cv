@@ -1,0 +1,83 @@
+{
+  "_args": [
+    [
+      {
+        "name": "semantic-ui-css",
+        "raw": "semantic-ui-css@^2.2.2",
+        "rawSpec": "^2.2.2",
+        "scope": null,
+        "spec": ">=2.2.2 <3.0.0",
+        "type": "range"
+      },
+      "S:\\pessoal\\cv"
+    ]
+  ],
+  "_from": "semantic-ui-css@>=2.2.2 <3.0.0",
+  "_id": "semantic-ui-css@2.2.3",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/semantic-ui-css",
+  "_nodeVersion": "6.3.0",
+  "_npmOperationalInternal": {
+    "host": "packages-16-east.internal.npmjs.com",
+    "tmp": "tmp/semantic-ui-css-2.2.3.tgz_1471837264394_0.6260280590504408"
+  },
+  "_npmUser": {
+    "email": "bot@semantic-ui.com",
+    "name": "semantic-bot"
+  },
+  "_npmVersion": "3.10.3",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "semantic-ui-css",
+    "raw": "semantic-ui-css@^2.2.2",
+    "rawSpec": "^2.2.2",
+    "scope": null,
+    "spec": ">=2.2.2 <3.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/semantic-ui-css/-/semantic-ui-css-2.2.3.tgz",
+  "_shasum": "27ed57043522e88e8e3ea6370f7726343126ac98",
+  "_shrinkwrap": null,
+  "_spec": "semantic-ui-css@^2.2.2",
+  "_where": "S:\\pessoal\\cv",
+  "author": {
+    "email": "jack@semantic-ui.com",
+    "name": "Jack Lukic"
+  },
+  "bugs": {
+    "url": "https://github.com/Semantic-Org/Semantic-UI/issues"
+  },
+  "dependencies": {
+    "jquery": "x.*"
+  },
+  "description": "CSS Only distribution of Semantic UI",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "27ed57043522e88e8e3ea6370f7726343126ac98",
+    "tarball": "https://registry.npmjs.org/semantic-ui-css/-/semantic-ui-css-2.2.3.tgz"
+  },
+  "gitHead": "67f91900c54d479db61c162567821d2e984752f9",
+  "homepage": "http://www.semantic-ui.com",
+  "license": "MIT",
+  "maintainers": [
+    {
+      "email": "bot@semantic-ui.com",
+      "name": "semantic-bot"
+    }
+  ],
+  "name": "semantic-ui-css",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Semantic-Org/Semantic-UI-CSS.git"
+  },
+  "scripts": {},
+  "title": "Semantic UI",
+  "version": "2.2.3"
+}
